@@ -25,9 +25,11 @@ hr {
 }
 
 .container {
+/*
   margin-right: auto;
   margin-left: auto;
-  max-width: 765px; /* or 950px */
+*/
+  max-width: 765px;
 }
 
 /* Navigation */
@@ -55,10 +57,6 @@ hr {
 .navbar .navbar-nav > .active > a:hover {
   background-color:rgba(0, 0, 0, 0.03);
 }
-
-/*.navbar .navbar-collapse {
-  text-align: center;
-}*/
 
 .navbar a {
 	font-family: 'EB Garamond', serif;
