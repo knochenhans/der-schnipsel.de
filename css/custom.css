@@ -27,7 +27,7 @@ hr {
 .container {
   margin-right: auto;
   margin-left: auto;
-  max-width: 700px; /* or 950px */
+  max-width: 765px; /* or 950px */
 }
 
 /* Navigation */
@@ -56,9 +56,9 @@ hr {
   background-color:rgba(0, 0, 0, 0.03);
 }
 
-.navbar .navbar-collapse {
+/*.navbar .navbar-collapse {
   text-align: center;
-}
+}*/
 
 .navbar a {
 	font-family: 'EB Garamond', serif;
@@ -66,8 +66,12 @@ hr {
 	border-bottom: 5px solid transparent;
 }
 
-.navbar .navbar-nav > .active > #a_blog, #a_blog:hover {
+.navbar .navbar-nav > .active > #a_neuigkeiten, #a_neuigkeiten:hover {
   border-bottom: 5px solid #96FF8A;
+}
+
+.navbar .navbar-nav > .active > #a_ausgaben, #a_ausgaben:hover {
+	border-bottom: 5px solid #8AFFB8;
 }
 
 .navbar .navbar-nav > .active > #a_schnipseljagd, #a_schnipseljagd:hover {
