@@ -40,10 +40,18 @@ hr {
   border: transparent;
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
+.navbar-nav {
+  display: table;
+  width: 100%;
+/*
   float: none;
   vertical-align: top;
+*/
+}
+
+.navbar-nav > li {
+  display: table-cell;
+  text-align: center;
 }
 
 .navbar .navbar-nav > .active > a {
