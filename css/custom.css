@@ -29,8 +29,8 @@ hr {
 	border-top: 2px dotted #BBBBBB;
 }
 
-.container {  
-  width: 750px;
+.container-fluid {  
+  max-width: 750px;
 }
 
 /* Navigation */
@@ -47,12 +47,16 @@ hr {
 }
 
 .navbar-nav {
+/*
   display: table;
   width: 100%;
+*/
 }
 
 .navbar-nav > li {
+/*
   display: table-cell;
+*/
   text-align: center;
 }
 
@@ -72,6 +76,11 @@ hr {
 	font-family: 'EB Garamond', serif;
 	font-size: 20px;
 	border-bottom: 5px solid transparent;
+}
+
+#navbar {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #a_neuigkeiten {
@@ -122,6 +131,10 @@ hr {
   border-bottom: 5px solid #FFB88A;
 }
 
+.col-md-6 {
+  padding-top: 15px;
+}
+
 .datum {
   font-size: 85%;
   text-transform: uppercase;
@@ -129,7 +142,7 @@ hr {
   color: #888;
 }
 
-.logo img {
+#logo {
   width: 100%;
   height: 100%;
   margin-top: 50px;

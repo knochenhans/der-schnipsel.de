@@ -21,14 +21,25 @@
 </head>
 
 <body>
-  <div class="container">	
+  <div class="container-fluid">	
     <header>
-      <div class="logo center-block" style="max-width:400px">
-        <img class="img-responsive" src="res/header.png" alt="">
+      <div id="logo" class="center-block" style="max-width:400px">
+        <img src="res/header.png" alt="Schnipsel-Logo" class="img-responsive"/>
       </div> 
-  
-      <nav class="navbar navbar-default">
-        <div class="collapse navbar-collapse">
+    </header>
+    
+    <nav class="navbar navbar-default">
+      <div id="navbar" class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a id="a_neuigkeiten" href="index.html">Neuigkeiten</a></li>
             <li><a id="a_ausgaben" href="ausgaben.html">Ausgaben</a></li>
@@ -38,9 +49,34 @@
             <li><a id="a_links" href="links.html">Links</a></li>
           </ul>
         </div>
-      </nav>
+      </div>
+      
       <hr>
-    </header>
+    </nav>
+    
+<!--
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+-->
     
     <h2>Wer, wie, was?</h2>
     
@@ -56,8 +92,9 @@
     
     <div class="row">
       <div class="col-md-6">
-        <img width="320" src="https://lh3.ggpht.com/-EDctFTYQSmY/UijhztPkqpI/AAAAAAAAAGM/QC-S7BRnJOQ/s320/Foto+Niko.JPG" />
+        <img width="320" src="https://lh3.ggpht.com/-EDctFTYQSmY/UijhztPkqpI/AAAAAAAAAGM/QC-S7BRnJOQ/s320/Foto+Niko.JPG" class="img-responsive img-rounded"/>
       </div>
+      
       <div class="col-md-6">
         <p><b>Name:</b> Nikolai Ziemer</p>
     
@@ -83,6 +120,10 @@
   
     <div class="row">
       <div class="col-md-6">
+        <img width="320" src="https://lh3.ggpht.com/-ynr6TyW9EbQ/UiydMS1a7GI/AAAAAAAAAGk/YFvwQtF3UrM/s1600/Foto+Andre.jpg" class="img-responsive img-rounded"/>
+      </div>
+      
+      <div class="col-md-6">
         <p><b>Name:</b> Andre Jonas</p>
         
         <p><b>geheime Internetidentität:</b> Nipsky</p>
@@ -104,17 +145,15 @@
 
         <p><b>Lieblingsfilme/-regisseure:</b> David Lynch, David Cronenberg, David Firth, Ingmar Bergman, Béla Tarr, Andrei Arsenjewitsch Tarkowski, … und zuuu viele Filme :)</p>
       </div>
-      <div class="col-md-6">
-        <img width="320" src="https://lh3.ggpht.com/-ynr6TyW9EbQ/UiydMS1a7GI/AAAAAAAAAGk/YFvwQtF3UrM/s1600/Foto+Andre.jpg" />
-      </div>
     </div>
     
     <hr>
     
     <div class="row">
       <div class="col-md-6">
-        <img width="320" src="https://lh3.ggpht.com/-ODzB0h7-mSQ/Uijhm4AICPI/AAAAAAAAAGI/OsxEr-hQY4Y/s320/pp.jpg" />
+        <img width="320" src="https://lh3.ggpht.com/-ODzB0h7-mSQ/Uijhm4AICPI/AAAAAAAAAGI/OsxEr-hQY4Y/s320/pp.jpg" class="img-responsive img-rounded"/>
       </div>
+      
       <div class="col-md-6">
         <p><b>Name:</b> Zara Zerbe</p>
         

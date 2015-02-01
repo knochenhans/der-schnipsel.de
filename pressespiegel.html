@@ -21,14 +21,25 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">	
     <header>
-      <div class="logo center-block" style="max-width:400px">
-        <img class="img-responsive" src="res/header.png" alt="">
-      </div>
-      
-      <nav class="navbar navbar-default">
-        <div class="collapse navbar-collapse">
+      <div id="logo" class="center-block" style="max-width:400px">
+        <img src="res/header.png" alt="Schnipsel-Logo" class="img-responsive"/>
+      </div> 
+    </header>
+    
+    <nav class="navbar navbar-default">
+      <div id="navbar" class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a id="a_neuigkeiten" href="index.html">Neuigkeiten</a></li>
             <li><a id="a_ausgaben" href="ausgaben.html">Ausgaben</a></li>
@@ -38,9 +49,11 @@
             <li><a id="a_links" href="links.html">Links</a></li>
           </ul>
         </div>
-      </nav>
+      </div>
+      
       <hr>
-    </header>
+    </nav>
+    
         
     <h2>Mal ein paar andere Stimmen über den Schnipsel hören?</h2>
     
