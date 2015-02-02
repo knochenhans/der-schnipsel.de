@@ -46,13 +46,6 @@ hr {
   padding-right: 0px;
 }
 
-.navbar-nav {
-/*
-  display: table;
-  width: 100%;
-*/
-}
-
 .navbar-nav > li {
 /*
   display: table-cell;
@@ -62,6 +55,11 @@ hr {
 
 .navbar .navbar-nav > .active > a {
   background-color:rgba(0, 0, 0, 0.07);
+}
+
+.navbar-nav {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .navbar .navbar-nav li > a:hover {
